@@ -1,0 +1,9 @@
+{
+	"name": "Covid-Reporting-Selke",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "618cbcab-f829-43a9-a6f8-32297d3726ef",
+		"tenantId": "6f26f00b-8bac-4887-a1c7-e1494eb68d57"
+	}
+}
