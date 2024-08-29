@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "Covid-Reporting-Selke"
+        },
+        "AzureDataLakeStorage1_accountKey": {
+            "value": ""
+        },
+        "ls_ablob_covidreportingstorageselke_connectionString": {
+            "value": ""
+        },
+        "ls_adls_covidreportingslselke_accountKey": {
+            "value": ""
+        },
+        "ls_databricks_reporting_accessToken": {
+            "value": ""
+        },
+        "ls_sql_covid_db_password": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_properties_typeProperties_url": {
+            "value": "https://covidreporingdlselke.dfs.core.windows.net/"
+        },
+        "ls_adls_covidreportingslselke_properties_typeProperties_url": {
+            "value": "https://covidreporingdlselke.dfs.core.windows.net/"
+        },
+        "ls_databricks_reporting_properties_typeProperties_existingClusterId": {
+            "value": "0822-091957-xpmvf2np"
+        },
+        "ls_http_github_properties_typeProperties_url": {
+            "value": "@{linkedService().sourceBaseURL}"
+        },
+        "ls_sql_covid_db_properties_typeProperties_server": {
+            "value": "covid-reporting-selke.database.windows.net"
+        },
+        "ls_sql_covid_db_properties_typeProperties_database": {
+            "value": "covidreportingsqlselke"
+        },
+        "ls_sql_covid_db_properties_typeProperties_userName": {
+            "value": "admin-sql"
+        },
+        "tr_population_data_arrive_properties_typeProperties_scope": {
+            "value": "/subscriptions/420c674f-689a-49fb-99fc-8017f16ecebf/resourceGroups/Covid-Reporting/providers/Microsoft.Storage/storageAccounts/reportingstorageselke"
+        }
+    }
+}
